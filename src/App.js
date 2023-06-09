@@ -1,7 +1,11 @@
-import CategoriesComponent from "./components/categories/categories.component";
+import NavigationBar from "./routes/navigation/navigation.component";
 
 const App = () => {
-  return <CategoriesComponent />;
+  return (
+    <>
+      <NavigationBar />
+    </>
+  );
 };
 
 export default App;
