@@ -1,5 +1,5 @@
 {
-  "name": "clothes_shop",
+  "name": "food_shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,14 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.63.2",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "7.21.0-placeholder-for-preset-env.2",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "2.8.8"
   },
   "scripts": {
     "start": "react-scripts start",
