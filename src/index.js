@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import ErrorPage from "./routes/error/error.component";
 import Home from "./routes/home/home.component";
 import About from "./routes/about/about.component";
+import Login from "./routes/login/login.component";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "login",
+        element: <Login />,
       },
     ],
   },
